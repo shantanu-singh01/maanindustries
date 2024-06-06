@@ -31,7 +31,7 @@ const Product = () => {
           <div className="product-container-bottom-left">
             <img src={image4} alt="Maan Industries Masterbatch" />
           </div>
-          <div className="product-container-bottom-left">
+          <div className="product-container-bottom-right">
             <h1>Common Types Of Masterbatches</h1>
             <p style={{fontSize:"18px", lineHeight:"1.6"}}>
               Common types of masterbatches include color masterbatches for

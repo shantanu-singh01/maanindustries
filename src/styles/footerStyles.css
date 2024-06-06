@@ -89,3 +89,13 @@
   .footer-email-link:hover {
     text-decoration: underline;
   }
+
+  @media screen and (max-width:960px) {
+    .footer-container{
+      padding: 0;
+    }
+
+    .footer-info {
+      width: 100%;
+    }
+  }

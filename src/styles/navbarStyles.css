@@ -33,3 +33,28 @@
     font-weight: 700;
 }
 
+@media screen and (max-width:960px) {
+
+    .navbar-content {
+        padding: 0 10px;
+    }
+    .navbar-content img {
+        height: auto;
+        width: 150px;
+    }
+    .navbar-content ul {
+        display: block;
+        padding: 0;
+    }
+
+    .navbar-content  li {
+        padding: 8px 10px;
+        font-size: large;
+        
+    }
+
+
+    .navbar-content img {
+        padding: 0;
+    }
+}

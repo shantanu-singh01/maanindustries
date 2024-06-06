@@ -71,6 +71,7 @@
   .product-container-top-left,
   .product-container-top-right {
     text-align: center;
+    padding: 15px 15px;
   }
 
   .product-container-bottom {
@@ -79,6 +80,7 @@
 
   .product-container-bottom-left,
   .product-container-bottom-right {
-    padding: 1rem 0;
+    padding: 15px 15px;
+    text-align: center;
   }
 }
