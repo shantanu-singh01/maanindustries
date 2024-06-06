@@ -1,0 +1,91 @@
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #000;
+  height: 23rem;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px; /* Optional: Set a max-width for the footer content */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; /* Optional: Add padding if needed */
+}
+
+.footer-container-top {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding-top: 2rem;
+}
+
+.footer-info,
+.footer-list,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  width: 18%; /* Adjusted to ensure four columns fit evenly */
+  margin: 0 1rem; /* Optional: Add margin if needed */
+  /* border: 1px solid white;  */
+}
+
+.footer-info h5,
+.footer-list h5,
+.footer-social h5 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.footer-info-content,
+.footer-list ul {
+  color: #fff;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-info-content div {
+  display: flex;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-social div {
+  display: flex;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-social div svg {
+  margin-right: 10px;
+}
+
+.footer-container-bottom {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.footer-container-bottom p {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.footer-email-link  {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-email-link:hover {
+    text-decoration: underline;
+  }

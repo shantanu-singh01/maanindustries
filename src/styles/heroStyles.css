@@ -1,0 +1,36 @@
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .hero-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    width: 550px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .hero-right {
+    flex: 1;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-right p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }

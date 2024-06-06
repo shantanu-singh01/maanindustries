@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    height: 8rem;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar-content img {
+    padding: 0 1rem 0 4rem;
+}
+
+.navbar-content ul {
+    display: flex;
+    list-style: none;
+    padding-right: 6rem;
+}
+
+.navbar-content ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-content li {
+    margin: 0 2rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+
