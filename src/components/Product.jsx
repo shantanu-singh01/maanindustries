@@ -24,12 +24,12 @@ const Product = () => {
             </p>
           </div>
           <div className="product-container-top-right">
-            <img src={image3} alt="Maan Industries Masterbatch" />
+            <img src={image3} alt="Maan Industries Masterbatch" style={{boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'}} />
           </div>
         </div>
         <div className="product-container-bottom">
           <div className="product-container-bottom-left">
-            <img src={image4} alt="Maan Industries Masterbatch" />
+            <img src={image4} alt="Maan Industries Masterbatch" style={{boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'}}/>
           </div>
           <div className="product-container-bottom-right">
             <h1>Common Types Of Masterbatches</h1>
